@@ -6,7 +6,7 @@ public class Bank {
 		String Rashed_pin="\0";
 		String Esha_pin="1234";
 		Account Rashed=new Account("Rashed Islam","01973742634");
-		Account Esha=new Account("Tasnia Esha","01937471298","Esha_pin");
+		Account Esha=new Account("Tasnia Esha","01937471298",Esha_pin);
 		System.out.println("Information and initial balance:"+Rashed);
 		System.out.println("Information and initial balance:"+Esha);
 		Rashed.add_money(2000);
